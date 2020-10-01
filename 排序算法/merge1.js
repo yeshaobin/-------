@@ -11,6 +11,7 @@ function merge(arr) {
     left = 0;
     right = step;
     while (right + step <= arr.length) {
+      // console.log('left,right',left,right)
       mergeArr(arr, left, left + step, right, right + step)
       left = right + step
       right = left + step
