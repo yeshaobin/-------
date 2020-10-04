@@ -31,7 +31,7 @@ function quick2(arr, left, right) {
     quick2(arr, j + 1, right)
   }
 }
-console.time('不用递归快速排序')
+console.time('快速排序2')
 quick2(arr,0,arr.length-1)
-console.timeEnd('不用递归快速排序')
+console.timeEnd('快速排序2')
 console.log(arr)
