@@ -19,7 +19,7 @@ function quick1(arr, left, right) {
         i++
       }
     }
-    // 结束后j的位置就在privor+1的位置上所以直接用right
+    // 结束后j的位置就在pivot+1的位置上所以直接用right
     arr[right] = arr[i]
     arr[i] = pivot
     quick1(arr, left, i - 1)
