@@ -3,7 +3,7 @@ function max(a,b){
 }
 function knapsack(capacity,size,value,n){
   if(capacity==0||n==0){
-    return 0;
+    return 0; 
   }
   if(size[n-1]>capacity){
     return knapsack(capacity,size,value,n-1)
